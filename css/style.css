@@ -105,7 +105,8 @@ header h1 {
   .song .text p {
     margin: .8em 0;
     line-height: 1.5em;
-    word-spacing: .2em; }
+    word-spacing: .2em;
+    color: #cc94ce; }
 .song .video-box {
   width: 66.6666666667%;
   min-width: 300px; }
