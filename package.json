@@ -17,7 +17,6 @@
     "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "watch": "npm-run-all build -p watch:*",
     "watch:sassprefixer": "onchange sass/style.scss -- npm-run-all watch-sasspref:*",
-    //To jest dobre rozwiązanie, czy połączyć sass i autoprefixer w jedną linijkę w "watch:sassprefixer"?
     "watch-sasspref:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "watch-sasspref:autoprefixer": "autoprefixer-cli css/style.css",
     "watch:browsersync": "browser-sync start --server --files css/*.css *.html"
